@@ -5,12 +5,12 @@ package staircase;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Stair Case");
-
+        System.out.println(Solution.climbStairs(45));;
     }
 }
 
 class Solution {
-    public int climbStairs(int n) {
+    public static int climbStairs(int n) {
         if (n == 0 || n == 1) {
             return 1;
         }
