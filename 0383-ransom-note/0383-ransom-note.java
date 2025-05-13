@@ -11,7 +11,7 @@ class Solution {
         Map<Character, Integer> freqMag = new HashMap<>();
 
         for (char c : magazine.toCharArray()) {
-            freqMag.merge(c, 1, Integer::sum);
+            freqMag.put(c, freqMag.getOrDefault(c, 0) + 1);
         }
 
         for (char c : ransomNote.toCharArray()) {
