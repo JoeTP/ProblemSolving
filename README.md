@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/JoeTP/ProblemSolving/tree/master/0383-ransom-note) |
+| [3396-valid-word](https://github.com/JoeTP/ProblemSolving/tree/master/3396-valid-word) |
 ## Counting
 |  |
 | ------- |
